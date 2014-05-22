@@ -1,0 +1,205 @@
+.postContainer{
+	color:#fff;
+	box-shadow: 0 2px 5px 1px #ddd;
+	-moz-box-shadow: 0 2px 5px 1px #ddd;
+	-webkit-box-shadow: 0 2px 5px 1px #ddd;
+}
+.postContainer a{
+	color:white;
+	text-decoration:none;
+}
+.postContainer a:hover{
+	color:white;
+	text-decoration:underline;
+}
+.postContainer a:visited{
+	color:white;
+	text-decoration:none;
+}
+.imageContainer {
+	position:relative;
+}
+.imageContainer img{
+	width:100%;
+}
+.imageContainer img:hover + .playbutton{
+	display:block;
+}
+.playButton{
+	position:absolute;
+	bottom:0;
+	right:0;
+	background-image: url(../img/playButton.png);
+	background-repeat:no-repeat;
+	background-size:100px 100px;
+	width:100px;
+	height:100px;
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none;
+	display:none;
+	margin:15px 15px;
+	
+}
+.playButton:hover{
+	display:block;
+	cursor:pointer;
+	background-image: url(../img/playButtonHover.png);
+	background-size:100px 100px;
+}
+.playButton:active{
+	margin:14px 14px;
+}
+
+.commentContainer {
+	width:100%;
+	padding:0;
+	margin:0 auto;
+	border:0;
+}
+.authorBox{
+	width:auto;
+	height:auto;
+	padding:0;
+	margin:0 auto;
+	vertical-align: middle;
+	background-color:#c54a2a;
+	border-bottom:1px solid #a73518;
+	border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-webkit-border-radius-topleft:3px;
+	border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	-webkit-border-radius-topright:3px;
+}
+.authorBoxBottom{
+	width:auto;
+	height:auto;
+	padding:0;
+	margin:0 auto;
+	vertical-align: middle;
+	background-color:#c54a2a;
+	border-top:1px solid #a73518;
+	border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-radius-bottomleft:3px;
+	border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-radius-bottomright:3px;
+}
+
+.name{
+	float: left;
+	font-weight:bold;
+	padding:10px;
+	color:#294052;
+}
+.authorBox .name a{
+	color:#fff;
+	text-decoration:none;
+}
+.authorBox .name a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.comment .name a{
+	color:#294052;
+	text-decoration:none;
+	
+}
+.comment{
+	float:left;
+	
+}
+.name a:hover{
+	color:#c54a2a;
+}
+
+.dateStamp{
+	float:right;
+	font-size:12px;
+	margin-top:3px;
+	padding:10px;
+}
+audio{
+	width:430px;
+	margin:7px 10px 0 0;
+}
+.commentContainer img{
+	width:auto;
+	height:auto;
+}
+
+.newCommentContainer{
+	width:auto;
+	height:auto;
+	padding:7px;
+}
+
+.commentText{
+	color:black;
+	border:1px solid;
+	padding:2px;
+	
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
+	cursor:pointer;
+}
+.postContainer img{
+	vertical-align: middle;
+}
+.title{
+	margin:10px 10px 5px 10px;
+	font-size: 16px;
+	font-weight:bold;
+	padding:0;
+}
+
+
+.tags{
+	float:left;
+	margin:0px 10px 10px 10px;
+	font-size:12px;
+}
+.authorBoxBottom .right{
+	float:right;
+	margin:10px 10px 0px 10px;
+	font-size:12px;
+	padding:0;
+	line-height:30px;
+	text-align:right;
+}
+.fb-like{
+	float:left;
+	margin:0 10px;
+}
+.picitBtn{
+	position:relative;
+	float:right;
+	height:20px;
+	width:85px;
+	text-align:left;
+	color:#294052;
+	padding-left:20px;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border:1px solid #000;
+	background: #eee;
+	background: #eee url('../img/picit.png') no-repeat 5% center;
+}
+.picitBtn:hover{
+	cursor:pointer;
+}
+.piced{
+	background: #eee url('../img/piced.png') no-repeat 5% center;
+}
+.piced:hover{
+	background: #eee url('../img/unfollow.png') no-repeat 5% center !important;
+}

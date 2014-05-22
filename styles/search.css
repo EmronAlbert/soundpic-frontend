@@ -1,0 +1,57 @@
+.searchChoice h2{
+	float:left;
+}
+.searchChoice ul{
+	float:right;
+	height:30px;
+	margin-top:0px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border:1px solid #d1d1d1;
+	color:#818181;
+	font-size:14px;
+	list-style:none;
+	font-weight:bold;
+	margin:0;
+	padding:8px 0 0 20px;
+}
+.searchChoice li, .searchChoice li:active{
+	color:black;
+	float:left;
+	text-align:center;
+	padding-right:16px;
+}
+.searchChoice li:hover{
+	color:#EC633F;
+}
+#searchResult {
+	font-weight:bold;
+}
+#searchResult ul {
+	list-style:none;
+	margin:10px 0;
+	padding:0;
+}
+#searchResult  a{
+	color:#3f75a2;
+	text-decoration:none;
+}
+#searchResult a:hover{
+	color:#b1b1b1;
+}
+#searchResult  img{
+	vertical-align: middle;
+	margin:-3px 5px 0 0;
+}
+.selected{
+	color: #fff;
+}

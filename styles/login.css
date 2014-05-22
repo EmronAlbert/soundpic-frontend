@@ -1,0 +1,128 @@
+html { 
+	background: url(../img/bg-front.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body{
+	margin:0;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:14px;
+}
+label:hover{
+	cursor:pointer;
+}
+*:focus {
+    outline: none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+h1{
+	margin:0
+}
+.loginform{
+	width:250px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-180px 0 0 -145px;
+	padding:20px;
+	text-align:center;
+	background-color:#F5F5F5;
+	box-shadow: 0px 0px 50px 0px #000, 0px 0px 50px 0px #000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.loginform input[type="text"], .loginform input[type="password"]{
+	color:#6a6a6a;
+	width:228px;
+	padding:5px;
+	margin-bottom:5px;
+	border:1px solid #a9a9a9;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-box-shadow: 0px 1px 1px #fff;
+	-webkit-box-shadow: 0px 1px 1px #fff;
+	box-shadow: 0px 1px 1px #fff;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.loginform input[type="text"]:focus, .loginform input[type="password"]:focus {
+    -moz-box-shadow: 0 0 1px 1px #74b9ef;
+    -webkit-box-shadow: 0 0 1px 1px #74b9ef;
+    box-shadow: 0 0 1px 1px #74b9ef;
+}
+.loginform input[type="submit"]{
+	color:#fff;
+	font-weight:bold;
+	width:240px;
+	padding:7px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:0px;
+	background:#294052 url('../img/loginButtonBg.png') repeat-x;
+	margin-bottom:5px;
+}
+.loginform input[type="submit"]:hover{
+	cursor:pointer;
+	background:#456886;
+}
+.loginform input[type=submit]:disabled, button:disabled {
+    background:#ddd;
+}
+.loginform input[type=submit]:disabled:hover, button:disabled:hover {
+    cursor:default;
+    background:#ddd;
+}
+.rememberBox{
+	float:left;
+	margin:3px 0px 5px 1px;
+	font-size:11px;
+}
+input[type="checkbox"]{
+	vertical-align:middle;
+	margin-top:-1px;
+}
+.errorMessage{
+	float:left;
+	color: #b94a48;
+	margin:2px 5px;
+}
+.errorMessage img{
+	position:absolute;
+	margin-left:-12px;
+	margin-top:4px;
+}
+form div .errorMessage{
+	position:absolute;
+	white-space: nowrap;
+	background:#fff;
+	padding:4px 7px;
+	border:1px solid #b94a48;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+form{
+	font-size:12px;
+}
+form div{
+	margin-bottom: 15px;
+}
+.leftAlign{
+	float:left;
+	margin-left:5px;
+	font-size:11px;
+}

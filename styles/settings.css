@@ -1,0 +1,31 @@
+.submitSettings{
+	text-align:right;
+}
+.settingsTable tr td{
+	border:0;
+	padding:0 5px;
+	margin:0;
+	font-size:12px;
+	height:25px;
+}
+.settingsTable a{
+	color:#b1b1b1;
+	text-decoration:none;
+}
+.settingsTable a:hover{
+	color:#000;
+}
+.submitLink {
+background-color: transparent;
+text-decoration: none;
+border: none;
+color: gray;
+cursor: pointer;
+}
+.errorMessage{
+	color: #C41B1B;
+	font-weight:bold;
+	font-size:12px;
+	margin:5px;
+	padding:0;
+}

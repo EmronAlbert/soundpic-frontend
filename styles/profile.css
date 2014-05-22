@@ -1,0 +1,255 @@
+.profileContent{
+	margin-top:15px;
+}
+#posts img, #favorites img{
+	height:180px;
+}
+.image{
+	float:left;
+	width:180px;
+	height:180px;
+	overflow:hidden;
+	padding-bottom:30px;
+	margin:10px 10px 0 0;
+	border:1px solid #ccc;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.image:hover{
+	border:1px solid #3f75a2;
+	cursor:pointer;
+}
+.image span{
+	font-size:14px;
+	font-weight:bold;
+	margin:200px 10px;
+}
+
+.image span, .image a, .image a:visited{
+	color:#000;
+	text-decoration:none;
+}
+#profilePicLarge{
+	display:none;
+}
+#profilePicLargeBG{
+	opacity: 0.8; 
+	background: #000; 
+	width: 100%;
+	height: 100%; 
+	z-index: 10;
+	top: 0; 
+	left: 0; 
+	position: fixed;
+}
+#profilePicLargeBG:hover{
+	cursor:pointer;
+}
+#profilePicLargePicture{
+	opacity: 1; 
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-300px -300px;
+	z-index:11;
+	width:600px;
+	border:15px solid #fff;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#profilePicLargePicture img{
+	width:100%;
+}   
+
+#profilePicLargePicture img:hover + .playbutton{
+	display:block;
+}
+#leftProfile{
+	float:left;
+}
+#rightProfile{
+	float:right;
+}
+.bio{
+	float:left;
+	width:500px;
+}
+.bio img{
+	margin-right:10px;
+	border:1px solid #ccc;
+	float:left;
+	max-height: 150px;
+	max-width: 150px;
+}
+.bio img:hover{
+	cursor:pointer;
+}
+.bio span{
+	color: #828282;
+}
+.button {
+	float:right;
+	width:110px;
+	padding:8px 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+}
+.button:hover{
+	cursor:pointer;
+ }
+.editBtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.editBtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+.editBtn:active {
+	position:relative;
+	top:1px;
+}
+.followBtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	text-shadow:1px 1px 0px #528ecc;
+}
+.followBtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+.followBtn:active {
+	position:relative;
+	top:1px;
+}
+.unfollowBtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	text-shadow:1px 1px 0px #810e05;
+}
+.unfollowBtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color:#c62d1f;
+}
+.unfollowBtn:active {
+	position:relative;
+	top:1px;
+}
+.profileInfo{
+	float:right;
+	width:250px;
+	height:45px;
+	margin-top:70px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #d1d1d1;
+}
+.profileInfo ul{
+	list-style:none;
+	font-weight:bold;
+	margin:0;
+	padding:6px 0 0 20px;
+}
+.profileInfo li, .profileInfo li:active{
+	color:black;
+	float:left;
+	text-align:center;
+	padding-right:16px;
+}
+.profileInfo li span{
+	color:#818181;
+	font-size:10px;
+}
+.profileInfo li:hover{
+	color:#EC633F;
+}
+.follower{
+	border-bottom:1px solid #eee;
+	padding: 0 0 10px 0;
+}
+.follower li {
+	float:left;
+}
+.follower .followButton{
+	float:right;
+}
+.follower a, .follower a:visited{
+	color:#294052;
+	font-weight:bold;
+	text-decoration:none;
+}
+.follower a:hover{
+	color:#c54a2a;
+}
+.followerBio {
+	font-size:10px;
+	color:#828282;
+	margin-top: 3px;
+}
+.followerListBtn{
+	position:relative;
+	float:right;
+	height:25px;
+	width:85px;
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	margin-top: -5px;
+}
+.followerListBtn:hover{
+	cursor:pointer;
+}

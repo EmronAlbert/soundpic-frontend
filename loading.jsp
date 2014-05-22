@@ -1,0 +1,1 @@
+<img src="public_html/img/loading.gif" id="loadingGif" />

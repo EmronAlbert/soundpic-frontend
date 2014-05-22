@@ -1,0 +1,73 @@
+.images{
+	width:150px; 
+	height:150px; 
+}
+.removePost{
+	position:fixed; 
+	margin-top:170px;
+	margin-left:-150px;
+}
+.editprofileImages{
+	padding:15px;
+	float:left;
+	width:150px;
+	height:150px;
+	margin-bottom:25px;
+}
+.editbio{
+	padding:0px 10px;
+	float:left;
+	width:500px;
+}
+.profilePic{
+	border:1px solid #ccc;
+	float:left;
+	
+}
+
+.help{
+	font-size:15px;
+	
+}
+
+.editProfile{
+	padding:1px;
+	float:right;
+	text-align:right;
+	position:fixed;
+	margin-left:630px;
+	border:none;
+	color:black;
+	text-decoration: none;
+
+}
+.editProfile a{
+	color:#294052;
+	text-decoration:none;
+}
+.editProfile a:hover{
+	color:#c54a2a;
+}
+.profilePic:hover{
+	cursor:pointer;
+}
+.inputchange {
+	resize: none;
+	background-color:transparent;
+	border: 1px solid;
+	font-family: Arial;
+	font-family: inherit;
+	font-size: inherit;
+	width:auto;
+}
+
+.inputchangeName {
+	resize: none;
+	background-color:transparent;
+	border: 0px solid;
+	font-family: Arial;
+	font-family: inherit;
+	font-size: inherit;
+	width:auto;
+	
+}

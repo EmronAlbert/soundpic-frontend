@@ -1,0 +1,80 @@
+html {
+    overflow-y: scroll;
+	min-height:100%;
+	position:relative;
+	background:#fff;
+}
+*:focus {
+    outline: none;
+}
+::-webkit-scrollbar {
+    width: 8px;
+	right:2px;
+	background-color:#fff;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ccc; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #eee; 
+}
+body{
+	margin:0;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:14px;
+	background-image: url(../img/bg.png);
+	background-attachment: fixed;
+}
+h2, h4{
+	margin:5px 0;
+}
+h3{
+	font-size:20px;
+	color:#000;
+	text-align: center;
+	margin:15px 0 5px 0;
+}
+hr{
+	border: 0;
+	width:99%;
+    height: 0;
+	margin:10px auto 0 auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+form {
+	padding:0;
+	margin:0;
+}
+.content{
+	min-height:91%;
+    margin-left:auto;
+    margin-right:auto;
+	width:765px;
+	background-color:#fff;
+	padding:55px 15px 20px 15px;
+	box-shadow: 6px 6px 10px -4px #888, -6px 6px 10px -4px #888;
+}
+span.clear {
+	clear: left;
+	display: block;
+}
+.darklink{
+	color:#294052;
+	text-decoration:none;
+}
+.darklink:hover{
+	color:#c54a2a;
+	text-decoration:none;
+	cursor:pointer;
+}
+.darklink:visited{
+	color:#294052;
+	text-decoration:none;
+}
